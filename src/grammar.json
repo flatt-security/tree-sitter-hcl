@@ -34,6 +34,10 @@
           {
             "type": "SYMBOL",
             "name": "block"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "comment"
           }
         ]
       }
@@ -195,15 +199,15 @@
         },
         {
           "type": "SYMBOL",
-          "name": "_index_expr_term"
+          "name": "index_expr_term"
         },
         {
           "type": "SYMBOL",
-          "name": "_attr_expr_term"
+          "name": "attr_expr_term"
         },
         {
           "type": "SYMBOL",
-          "name": "_splat_expr_term"
+          "name": "splat_expr_term"
         },
         {
           "type": "SEQ",
@@ -224,7 +228,7 @@
         }
       ]
     },
-    "_index_expr_term": {
+    "index_expr_term": {
       "type": "SEQ",
       "members": [
         {
@@ -237,7 +241,7 @@
         }
       ]
     },
-    "_attr_expr_term": {
+    "attr_expr_term": {
       "type": "SEQ",
       "members": [
         {
@@ -250,7 +254,7 @@
         }
       ]
     },
-    "_splat_expr_term": {
+    "splat_expr_term": {
       "type": "SEQ",
       "members": [
         {
